@@ -17,7 +17,6 @@ function getColorForParty(partyName) {
  * @param {Object} properties
  */
 function getAnalyseForWahlergebnisse(properties) {
-  console.log(properties);
   var zweitstimmen = properties.kreistagswahl2020.zweitstimme;
   var max = 0;
   var partyName = null;
@@ -125,18 +124,19 @@ function getAnalyseForErstVsZweit(properties) {
 
 
 function getAnalyseGroessterGewinner(properties) {
-  if (properties.kreistagswahl2013.zweitstimme) {
-    var kreistagswahl2013_zweitstimmen = properties.kreistagswahl2013.zweitstimme;
-    var kreistagswahl2013_zweitstimmen_summe = getGueltigeStimmen2013(kreistagswahl2013_zweitstimmen);
+  if (properties.kreistagswahl2014.zweitstimme) {
+    var kreistagswahl2014_zweitstimmen = properties.kreistagswahl2014.zweitstimme;
+    var kreistagswahl2014_zweitstimmen_summe = getGueltigeStimmen2014(kreistagswahl2014_zweitstimmen);
     var kreistagswahl2020_zweitstimmen = properties.kreistagswahl2020.zweitstimme;
     var kreistagswahl2020_zweitstimmen_summe = properties.kreistagswahl2020.gueltige_zweitstimmen;
     var winner_loser = {};
     kreistagswahl2020_zweitstimmen.forEach(function(partei) {
       winner_loser[partei.partei] = partei.stimmen / kreistagswahl2020_zweitstimmen_summe;
+      delete winner_loser['AfD'] // remove parties not participating in 2014
     });
-    kreistagswahl2013_zweitstimmen.forEach(function(partei) {
+    kreistagswahl2014_zweitstimmen.forEach(function(partei) {
       if (winner_loser[partei.partei]) {
-        winner_loser[partei.partei] = winner_loser[partei.partei] - partei.stimmen / kreistagswahl2013_zweitstimmen_summe;
+        winner_loser[partei.partei] = winner_loser[partei.partei] - partei.stimmen / kreistagswahl2014_zweitstimmen_summe;
       }
     });
     var max = 0, parteiname_winner = '';
@@ -146,6 +146,7 @@ function getAnalyseGroessterGewinner(properties) {
         parteiname_winner = parteiname;
       }
     });
+
     var color = getColorForParty(parteiname_winner);
     return {
       "color": color,
@@ -154,20 +155,20 @@ function getAnalyseGroessterGewinner(properties) {
   } else {
     return {
       "color": "#ccc",
-      "tooltipShowValue": "In diesem Gebiet wurden die Wahlbezirke im Vergleich zur Bundestagswahl 2013 stark umstrukturiert, so dass kein Vergleich möglich ist"
+      "tooltipShowValue": "In diesem Gebiet wurden die Wahlbezirke im Vergleich zur Kommunalwahl 2013 stark umstrukturiert, so dass kein Vergleich möglich ist"
     }
   }
 }
 
 function getAnalyseGroessterVerlierer(properties) {
-  if (properties.kreistagswahl2013.zweitstimme) {
-    var kreistagswahl2013_zweitstimmen = properties.kreistagswahl2013.zweitstimme;
-    var kreistagswahl2013_zweitstimmen_summe = getGueltigeStimmen2013(kreistagswahl2013_zweitstimmen);
+  if (properties.kreistagswahl2014.zweitstimme) {
+    var kreistagswahl2014_zweitstimmen = properties.kreistagswahl2014.zweitstimme;
+    var kreistagswahl2014_zweitstimmen_summe = getGueltigeStimmen2014(kreistagswahl2014_zweitstimmen);
     var kreistagswahl2020_zweitstimmen = properties.kreistagswahl2020.zweitstimme;
     var kreistagswahl2020_zweitstimmen_summe = properties.kreistagswahl2020.gueltige_zweitstimmen;
     var winner_loser = {};
-    kreistagswahl2013_zweitstimmen.forEach(function(partei) {
-      winner_loser[partei.partei] = partei.stimmen / kreistagswahl2013_zweitstimmen_summe;
+    kreistagswahl2014_zweitstimmen.forEach(function(partei) {
+      winner_loser[partei.partei] = partei.stimmen / kreistagswahl2014_zweitstimmen_summe;
     });
     kreistagswahl2020_zweitstimmen.forEach(function(partei) {
       if (winner_loser[partei.partei]) {
@@ -189,17 +190,17 @@ function getAnalyseGroessterVerlierer(properties) {
   } else {
     return {
       "color": "#ccc",
-      "tooltipShowValue": "In diesem Gebiet wurden die Wahlbezirke im Vergleich zur Bundestagswahl 2013 stark umstrukturiert, so dass kein Vergleich möglich ist"
+      "tooltipShowValue": "In diesem Gebiet wurden die Wahlbezirke im Vergleich zur Kommunalwahl 2013 stark umstrukturiert, so dass kein Vergleich möglich ist"
     }
   }
 }
 
-function getGueltigeStimmen2013(kreistagswahl2013_stimmen) {
-  var kreistagswahl2013_stimmen_summe = 0;
-  for(var index in kreistagswahl2013_stimmen){
-      kreistagswahl2013_stimmen_summe += kreistagswahl2013_stimmen[index].stimmen;
+function getGueltigeStimmen2014(kreistagswahl2014_stimmen) {
+  var kreistagswahl2014_stimmen_summe = 0;
+  for(var index in kreistagswahl2014_stimmen){
+      kreistagswahl2014_stimmen_summe += kreistagswahl2014_stimmen[index].stimmen;
   }
-  return kreistagswahl2013_stimmen_summe;
+  return kreistagswahl2014_stimmen_summe;
 }
 
 /**
@@ -207,8 +208,8 @@ function getGueltigeStimmen2013(kreistagswahl2013_stimmen) {
  * @param {Object} properties
  */
 function getAnalyseForWechselwaehler(properties) {
-  if (properties.kreistagswahl2013.zweitstimme) {
-    var zweitstimmen2013 = properties.kreistagswahl2013.zweitstimme;
+  if (properties.kreistagswahl2014.zweitstimme) {
+    var zweitstimmen2013 = properties.kreistagswahl2014.zweitstimme;
     var zweitstimmen2017 = properties.kreistagswahl2020.zweitstimme;
     var sieger2013 = getParteiMitMeistenStimmen(zweitstimmen2013);
     var sieger2017 = getParteiMitMeistenStimmen(zweitstimmen2017);
@@ -226,7 +227,7 @@ function getAnalyseForWechselwaehler(properties) {
   } else {
     return {
       "color": "#ccc",
-      "tooltipShowValue": "In diesem Gebiet wurden die Wahlbezirke im Vergleich zur Bundestagswahl 2013 stark umstrukturiert, so dass kein Vergleich möglich ist"
+      "tooltipShowValue": "In diesem Gebiet wurden die Wahlbezirke im Vergleich zur Kommunalwahl 2013 stark umstrukturiert, so dass kein Vergleich möglich ist"
     }
   }
 }
@@ -240,6 +241,7 @@ function getParteiMitMeistenStimmen(zweitstimmen) {
          partyName = party.partei;
      }
   });
+
   var gewinner = findParty(partyName);
   return {
     "party": gewinner,
@@ -252,8 +254,8 @@ function getParteiMitMeistenStimmen(zweitstimmen) {
  */
 function getAnalyseForUngueltigeStimmen(properties) {
   var kreistagswahl2020 = properties.kreistagswahl2020;
-  var gesamtStimmen = 2 * kreistagswahl2020["waehler/-innen"];
-  var gueltigeStimmen = kreistagswahl2020.gueltige_erststimmen + kreistagswahl2020.gueltige_zweitstimmen;
+  var gesamtStimmen = kreistagswahl2020["waehler/-innen"];
+  var gueltigeStimmen = kreistagswahl2020.gueltige_zweitstimmen;
   var ungueltigeStimmen = gesamtStimmen - gueltigeStimmen;
 
   var prozentualUngueltigeStimmen = ungueltigeStimmen / gesamtStimmen;

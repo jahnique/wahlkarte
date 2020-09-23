@@ -5,10 +5,41 @@
             "properties": {
                 "wahlbezirksnummer": "10",
                 "wahlbezirksname": "Buddemeier",
-                "kreistagswahl2013": {
+                "kreistagswahl2014": {
+                    "bezirke": ["10"],
+                    "waehler/-innen": 403,
+                    "wahlberechtigte": 538,
+                    "zweitstimme": [{
+                        "stimmen": 170,
+                        "partei": "CDU",
+                        "name": "Raffel"
+                    }, {
+                        "stimmen": 102,
+                        "partei": "SPD",
+                        "name": "Strzezebroda"
+                    },{
+                        "stimmen": 63,
+                        "partei": "Grüne",
+                        "name": "Stubbe"
+                    },{
+                        "stimmen": 1,
+                        "partei": "Unabhängige Wählergemeinschaft",
+                        "name": "Niestegge"
+                    },{
+                        "stimmen": 56,
+                        "partei": "FDP",
+                        "name": "Riesenbeck"
+                    },{
+                        "stimmen": 8,
+                        "partei": "Die Linke",
+                        "name": "Schatz"
+                    }]
+                },
+                "kreistagswahl2020": {
                     "bezirke": ["10"],
                     "waehler/-innen": 411,
-                    "wahlberechtigte": 362,
+                    "wahlberechtigte": 515,
+                    "gueltige_zweitstimmen": 410,
                     "zweitstimme": [{
                         "stimmen": 163,
                         "partei": "CDU",
@@ -31,41 +62,7 @@
                         "name": "Riesenbeck"
                     },{
                         "stimmen": 6,
-                        "partei": "LINKE",
-                        "name": "Schatz"
-                    },{
-                        "stimmen": 17,
-                        "partei": "AfD",
-                        "name": "Beckmann"
-                    }]
-                },
-                "kreistagswahl2020": {
-                    "bezirke": ["10"],
-                    "waehler/-innen": 411,
-                    "wahlberechtigte": 362,
-                    "zweitstimme": [{
-                        "stimmen": 163,
-                        "partei": "CDU",
-                        "name": "Raffel"
-                    }, {
-                        "stimmen": 95,
-                        "partei": "SPD",
-                        "name": "Strzezebroda"
-                    },{
-                        "stimmen": 81,
-                        "partei": "GR\u00dcNE",
-                        "name": "Stubbe"
-                    },{
-                        "stimmen": 2,
-                        "partei": "Unabhängige Wählergemeinschaft",
-                        "name": "Niestegge"
-                    },{
-                        "stimmen": 46,
-                        "partei": "FDP",
-                        "name": "Riesenbeck"
-                    },{
-                        "stimmen": 6,
-                        "partei": "LINKE",
+                        "partei": "Die Linke",
                         "name": "Schatz"
                     },{
                         "stimmen": 17,
@@ -770,44 +767,12 @@
             "properties": {
                 "wahlbezirksnummer": "09",
                 "wahlbezirksname": "Pfarrheim St. Christophorus",
-                "kreistagswahl2013": {
-                    "bezirke": ["09"],
-                    "waehler/-innen": 311,
-                    "wahlberechtigte": 371,
-                    "zweitstimme": [{
-                        "stimmen": 122,
-                        "partei": "CDU",
-                        "name": "Raffel"
-                    }, {
-                        "stimmen": 68,
-                        "partei": "SPD",
-                        "name": "Strzezebroda"
-                    },{
-                        "stimmen": 52,
-                        "partei": "Grüne",
-                        "name": "Stubbe"
-                    },{
-                        "stimmen": 3,
-                        "partei": "Unabhängige Wählergemeinschaft",
-                        "name": "Niestegge"
-                    },{
-                        "stimmen": 41,
-                        "partei": "FDP",
-                        "name": "Riesenbeck"
-                    },{
-                        "stimmen": 7,
-                        "partei": "LINKE",
-                        "name": "Schatz"
-                    },{
-                        "stimmen": 13,
-                        "partei": "AfD",
-                        "name": "Beckmann"
-                    }]
-                },
+                "kreistagswahl2014": {},
                 "kreistagswahl2020": {
                     "bezirke": ["09"],
                     "waehler/-innen": 311,
-                    "wahlberechtigte": 371,
+                    "wahlberechtigte": 479,
+                    "gueltige_zweitstimmen": 306,
                     "zweitstimme": [{
                         "stimmen": 122,
                         "partei": "CDU",
@@ -830,7 +795,7 @@
                         "name": "Riesenbeck"
                     },{
                         "stimmen": 7,
-                        "partei": "LINKE",
+                        "partei": "Die Linke",
                         "name": "Schatz"
                     },{
                         "stimmen": 13,
@@ -1522,12 +1487,12 @@
             "properties": {
                 "wahlbezirksnummer": "03",
                 "wahlbezirksname": "kath. Kindergarten",
-                "kreistagswahl2013": {
+                "kreistagswahl2014": {
                     "bezirke": ["03"],
-                    "waehler/-innen": 294,
-                    "wahlberechtigte": 454,
+                    "waehler/-innen": 268,
+                    "wahlberechtigte": 442,
                     "zweitstimme": [{
-                        "stimmen": 68,
+                        "stimmen": 82,
                         "partei": "CDU",
                         "name": "Raffel"
                     }, {
@@ -1535,31 +1500,28 @@
                         "partei": "SPD",
                         "name": "Strzezebroda"
                     },{
-                        "stimmen": 59,
+                        "stimmen": 38,
                         "partei": "Grüne",
                         "name": "Stubbe"
                     },{
-                        "stimmen": 3,
+                        "stimmen": 2,
                         "partei": "Unabhängige Wählergemeinschaft",
                         "name": "Niestegge"
                     },{
-                        "stimmen": 45,
+                        "stimmen": 33,
                         "partei": "FDP",
                         "name": "Riesenbeck"
                     },{
-                        "stimmen": 4,
-                        "partei": "LINKE",
+                        "stimmen": 12,
+                        "partei": "Die Linke",
                         "name": "Schatz"
-                    },{
-                        "stimmen": 14,
-                        "partei": "AfD",
-                        "name": "Beckmann"
                     }]
                 },
                 "kreistagswahl2020": {
                     "bezirke": ["03"],
-                    "waehler/-innen": 311,
-                    "wahlberechtigte": 371,
+                    "waehler/-innen": 294,
+                    "wahlberechtigte": 537,
+                    "gueltige_zweitstimmen": 287,
                     "zweitstimme": [{
                         "stimmen": 68,
                         "partei": "CDU",
@@ -1582,7 +1544,7 @@
                         "name": "Riesenbeck"
                     },{
                         "stimmen": 4,
-                        "partei": "LINKE",
+                        "partei": "Die Linke",
                         "name": "Schatz"
                     },{
                         "stimmen": 14,
@@ -1904,44 +1866,41 @@
             "properties": {
                 "wahlbezirksnummer": "01",
                 "wahlbezirksname": "Rathaus",
-                "kreistagswahl2013": {
+                "kreistagswahl2014": {
                     "bezirke": ["01"],
-                    "waehler/-innen": 305,
-                    "wahlberechtigte": 367,
+                    "waehler/-innen": 344,
+                    "wahlberechtigte": 556,
                     "zweitstimme": [{
-                        "stimmen": 105,
+                        "stimmen": 124,
                         "partei": "CDU",
                         "name": "Raffel"
                     }, {
-                        "stimmen": 104,
+                        "stimmen": 106,
                         "partei": "SPD",
                         "name": "Strzezebroda"
                     },{
-                        "stimmen": 52,
+                        "stimmen": 34,
                         "partei": "Grüne",
                         "name": "Stubbe"
                     },{
-                        "stimmen": 6,
+                        "stimmen": 4,
                         "partei": "Unabhängige Wählergemeinschaft",
                         "name": "Niestegge"
                     },{
-                        "stimmen": 19,
+                        "stimmen": 57,
                         "partei": "FDP",
                         "name": "Riesenbeck"
                     },{
-                        "stimmen": 3,
-                        "partei": "LINKE",
+                        "stimmen": 12,
+                        "partei": "Die Linke",
                         "name": "Schatz"
-                    },{
-                        "stimmen": 11,
-                        "partei": "AfD",
-                        "name": "Beckmann"
                     }]
                 },
                 "kreistagswahl2020": {
                     "bezirke": ["01"],
                     "waehler/-innen": 305,
-                    "wahlberechtigte": 367,
+                    "wahlberechtigte": 525,
+                    "gueltige_zweitstimmen": 300,
                     "zweitstimme": [{
                         "stimmen": 105,
                         "partei": "CDU",
@@ -1964,7 +1923,7 @@
                         "name": "Riesenbeck"
                     },{
                         "stimmen": 3,
-                        "partei": "LINKE",
+                        "partei": "Die Linke",
                         "name": "Schatz"
                     },{
                         "stimmen": 11,
@@ -2177,44 +2136,12 @@
             "properties": {
                 "wahlbezirksnummer": "04",
                 "wahlbezirksname": "Feuerwehrgerätehaus",
-                "kreistagswahl2013": {
-                    "bezirke": ["04"],
-                    "waehler/-innen": 259,
-                    "wahlberechtigte": 426,
-                    "zweitstimme": [{
-                        "stimmen": 93,
-                        "partei": "CDU",
-                        "name": "Raffel"
-                    }, {
-                        "stimmen": 64,
-                        "partei": "SPD",
-                        "name": "Strzezebroda"
-                    },{
-                        "stimmen": 45,
-                        "partei": "Grüne",
-                        "name": "Stubbe"
-                    },{
-                        "stimmen": 3,
-                        "partei": "Unabhängige Wählergemeinschaft",
-                        "name": "Niestegge"
-                    },{
-                        "stimmen": 32,
-                        "partei": "FDP",
-                        "name": "Riesenbeck"
-                    },{
-                        "stimmen": 5,
-                        "partei": "LINKE",
-                        "name": "Schatz"
-                    },{
-                        "stimmen": 16,
-                        "partei": "AfD",
-                        "name": "Beckmann"
-                    }]
-                },
+                "kreistagswahl2014": {},
                 "kreistagswahl2020": {
                     "bezirke": ["04"],
                     "waehler/-innen": 259,
-                    "wahlberechtigte": 426,
+                    "wahlberechtigte": 510,
+                    "gueltige_zweitstimmen": 258,
                     "zweitstimme": [{
                         "stimmen": 93,
                         "partei": "CDU",
@@ -2237,7 +2164,7 @@
                         "name": "Riesenbeck"
                     },{
                         "stimmen": 5,
-                        "partei": "LINKE",
+                        "partei": "Die Linke",
                         "name": "Schatz"
                     },{
                         "stimmen": 16,
@@ -2567,6 +2494,75 @@
         },
         {
             "type": "Feature",
+            "properties": {
+                "wahlbezirksnummer": "02",
+                "wahlbezirksname": "Bauhof",
+                "kreistagswahl2014": {
+                    "bezirke": ["02"],
+                    "waehler/-innen": 323,
+                    "wahlberechtigte": 461,
+                    "zweitstimme": [{
+                        "stimmen": 107,
+                        "partei": "CDU",
+                        "name": "Raffel"
+                    }, {
+                        "stimmen": 111,
+                        "partei": "SPD",
+                        "name": "Strzezebroda"
+                    },{
+                        "stimmen": 38,
+                        "partei": "Grüne",
+                        "name": "Stubbe"
+                    },{
+                        "stimmen": 3,
+                        "partei": "Unabhängige Wählergemeinschaft",
+                        "name": "Niestegge"
+                    },{
+                        "stimmen": 48,
+                        "partei": "FDP",
+                        "name": "Riesenbeck"
+                    },{
+                        "stimmen": 8,
+                        "partei": "Die Linke",
+                        "name": "Schatz"
+                    }]
+                },
+                "kreistagswahl2020": {
+                    "bezirke": ["02"],
+                    "waehler/-innen": 366,
+                    "wahlberechtigte": 531,
+                    "gueltige_zweitstimmen": 362,
+                    "zweitstimme": [{
+                        "stimmen": 123,
+                        "partei": "CDU",
+                        "name": "Raffel"
+                    }, {
+                        "stimmen": 98,
+                        "partei": "SPD",
+                        "name": "Strzezebroda"
+                    },{
+                        "stimmen": 77,
+                        "partei": "Grüne",
+                        "name": "Stubbe"
+                    },{
+                        "stimmen": 4,
+                        "partei": "Unabhängige Wählergemeinschaft",
+                        "name": "Niestegge"
+                    },{
+                        "stimmen": 42,
+                        "partei": "FDP",
+                        "name": "Riesenbeck"
+                    },{
+                        "stimmen": 9,
+                        "partei": "Die Linke",
+                        "name": "Schatz"
+                    },{
+                        "stimmen": 9,
+                        "partei": "AfD",
+                        "name": "Beckmann"
+                    }]
+                }
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -2848,19 +2844,50 @@
                         [7.734878089286999, 52.13788128637142]
                     ]
                 ]
-            },
-            "properties": {
-                "OBJECTID": 276,
-                "Kommune": "Ladbergen",
-                "Wahlbezirk": "2",
-                "Einwohner": 0,
-                "Wahlberech": 0,
-                "SHAPE_STAr": 525579.35376,
-                "SHAPE_STLe": 4247.1366124
             }
         },
         {
             "type": "Feature",
+            "properties": {
+                "wahlbezirksnummer": "07",
+                "wahlbezirksname": "DRK Kiga \"kl. Strolche\"",
+                "kreistagswahl2014": {},
+                "kreistagswahl2020": {
+                    "bezirke": ["07"],
+                    "waehler/-innen": 321,
+                    "wahlberechtigte": 545,
+                    "gueltige_zweitstimmen": 316,
+                    "zweitstimme": [{
+                        "stimmen": 91,
+                        "partei": "CDU",
+                        "name": "Raffel"
+                    }, {
+                        "stimmen": 118,
+                        "partei": "SPD",
+                        "name": "Strzezebroda"
+                    },{
+                        "stimmen": 54,
+                        "partei": "Grüne",
+                        "name": "Stubbe"
+                    },{
+                        "stimmen": 0,
+                        "partei": "Unabhängige Wählergemeinschaft",
+                        "name": "Niestegge"
+                    },{
+                        "stimmen": 39,
+                        "partei": "FDP",
+                        "name": "Riesenbeck"
+                    },{
+                        "stimmen": 5,
+                        "partei": "Die Linke",
+                        "name": "Schatz"
+                    },{
+                        "stimmen": 9,
+                        "partei": "AfD",
+                        "name": "Beckmann"
+                    }]
+                }
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -3077,19 +3104,50 @@
                         [7.73760998358283, 52.13522321189154]
                     ]
                 ]
-            },
-            "properties": {
-                "OBJECTID": 277,
-                "Kommune": "Ladbergen",
-                "Wahlbezirk": "7",
-                "Einwohner": 0,
-                "Wahlberech": 0,
-                "SHAPE_STAr": 180683.71582,
-                "SHAPE_STLe": 2251.670761
             }
         },
         {
             "type": "Feature",
+            "properties": {
+                "wahlbezirksnummer": "06",
+                "wahlbezirksname": "DRK Kiga \"Abenteuerland\"",
+                "kreistagswahl2014": {},
+                "kreistagswahl2020": {
+                    "bezirke": ["06"],
+                    "waehler/-innen": 327,
+                    "wahlberechtigte": 396,
+                    "gueltige_zweitstimmen": 323,
+                    "zweitstimme": [{
+                        "stimmen": 79,
+                        "partei": "CDU",
+                        "name": "Raffel"
+                    }, {
+                        "stimmen": 91,
+                        "partei": "SPD",
+                        "name": "Strzezebroda"
+                    },{
+                        "stimmen": 90,
+                        "partei": "Grüne",
+                        "name": "Stubbe"
+                    },{
+                        "stimmen": 2,
+                        "partei": "Unabhängige Wählergemeinschaft",
+                        "name": "Niestegge"
+                    },{
+                        "stimmen": 42,
+                        "partei": "FDP",
+                        "name": "Riesenbeck"
+                    },{
+                        "stimmen": 4,
+                        "partei": "Die Linke",
+                        "name": "Schatz"
+                    },{
+                        "stimmen": 15,
+                        "partei": "AfD",
+                        "name": "Beckmann"
+                    }]
+                }
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -3314,19 +3372,79 @@
                         [7.735373504275, 52.13276602524786]
                     ]
                 ]
-            },
-            "properties": {
-                "OBJECTID": 278,
-                "Kommune": "Ladbergen",
-                "Wahlbezirk": "6",
-                "Einwohner": 0,
-                "Wahlberech": 0,
-                "SHAPE_STAr": 318208.802979,
-                "SHAPE_STLe": 3141.22509186
             }
         },
         {
             "type": "Feature",
+            "properties": {
+                "wahlbezirksnummer": "05",
+                "wahlbezirksname": "Grundschule",
+                "kreistagswahl2014": {
+                    "bezirke": ["05"],
+                    "waehler/-innen": 267,
+                    "wahlberechtigte": 449,
+                    "zweitstimme": [{
+                        "stimmen": 79,
+                        "partei": "CDU",
+                        "name": "Raffel"
+                    }, {
+                        "stimmen": 83,
+                        "partei": "SPD",
+                        "name": "Strzezebroda"
+                    },{
+                        "stimmen": 25,
+                        "partei": "Grüne",
+                        "name": "Stubbe"
+                    },{
+                        "stimmen": 0,
+                        "partei": "Unabhängige Wählergemeinschaft",
+                        "name": "Niestegge"
+                    },{
+                        "stimmen": 63,
+                        "partei": "FDP",
+                        "name": "Riesenbeck"
+                    },{
+                        "stimmen": 7,
+                        "partei": "Die Linke",
+                        "name": "Schatz"
+                    }]
+                },
+                "kreistagswahl2020": {
+                    "bezirke": ["05"],
+                    "waehler/-innen": 350,
+                    "wahlberechtigte": 489,
+                    "gueltige_zweitstimmen": 347,
+                    "zweitstimme": [{
+                        "stimmen": 118,
+                        "partei": "CDU",
+                        "name": "Raffel"
+                    }, {
+                        "stimmen": 77,
+                        "partei": "SPD",
+                        "name": "Strzezebroda"
+                    },{
+                        "stimmen": 82,
+                        "partei": "Grüne",
+                        "name": "Stubbe"
+                    },{
+                        "stimmen": 4,
+                        "partei": "Unabhängige Wählergemeinschaft",
+                        "name": "Niestegge"
+                    },{
+                        "stimmen": 51,
+                        "partei": "FDP",
+                        "name": "Riesenbeck"
+                    },{
+                        "stimmen": 3,
+                        "partei": "Die Linke",
+                        "name": "Schatz"
+                    },{
+                        "stimmen": 12,
+                        "partei": "AfD",
+                        "name": "Beckmann"
+                    }]
+                }
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -3558,19 +3676,79 @@
                         [7.753772151229387, 52.1383699953214]
                     ]
                 ]
-            },
-            "properties": {
-                "OBJECTID": 279,
-                "Kommune": "Ladbergen",
-                "Wahlbezirk": "5",
-                "Einwohner": 0,
-                "Wahlberech": 0,
-                "SHAPE_STAr": 433511.583984,
-                "SHAPE_STLe": 3967.57714401
             }
         },
         {
             "type": "Feature",
+            "properties": {
+                "wahlbezirksnummer": "08",
+                "wahlbezirksname": "Grundschule II",
+                "kreistagswahl2014": {
+                    "bezirke": ["08"],
+                    "waehler/-innen": 364,
+                    "wahlberechtigte": 527,
+                    "zweitstimme": [{
+                        "stimmen": 128,
+                        "partei": "CDU",
+                        "name": "Raffel"
+                    }, {
+                        "stimmen": 127,
+                        "partei": "SPD",
+                        "name": "Strzezebroda"
+                    },{
+                        "stimmen": 44,
+                        "partei": "Grüne",
+                        "name": "Stubbe"
+                    },{
+                        "stimmen": 4,
+                        "partei": "Unabhängige Wählergemeinschaft",
+                        "name": "Niestegge"
+                    },{
+                        "stimmen": 47,
+                        "partei": "FDP",
+                        "name": "Riesenbeck"
+                    },{
+                        "stimmen": 9,
+                        "partei": "Die Linke",
+                        "name": "Schatz"
+                    }]
+                },
+                "kreistagswahl2020": {
+                    "bezirke": ["08"],
+                    "waehler/-innen": 302,
+                    "wahlberechtigte": 452,
+                    "gueltige_zweitstimmen": 302,
+                    "zweitstimme": [{
+                        "stimmen": 130,
+                        "partei": "CDU",
+                        "name": "Raffel"
+                    }, {
+                        "stimmen": 41,
+                        "partei": "SPD",
+                        "name": "Strzezebroda"
+                    },{
+                        "stimmen": 62,
+                        "partei": "Grüne",
+                        "name": "Stubbe"
+                    },{
+                        "stimmen": 1,
+                        "partei": "Unabhängige Wählergemeinschaft",
+                        "name": "Niestegge"
+                    },{
+                        "stimmen": 43,
+                        "partei": "FDP",
+                        "name": "Riesenbeck"
+                    },{
+                        "stimmen": 8,
+                        "partei": "Die Linke",
+                        "name": "Schatz"
+                    },{
+                        "stimmen": 17,
+                        "partei": "AfD",
+                        "name": "Beckmann"
+                    }]
+                }
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -3974,19 +4152,50 @@
                         [7.770068765447459, 52.137728802435596]
                     ]
                 ]
-            },
-            "properties": {
-                "OBJECTID": 280,
-                "Kommune": "Ladbergen",
-                "Wahlbezirk": "8",
-                "Einwohner": 0,
-                "Wahlberech": 0,
-                "SHAPE_STAr": 2978017.13403,
-                "SHAPE_STLe": 9602.71042053
             }
         },
         {
             "type": "Feature",
+            "properties": {
+                "wahlbezirksnummer": "11",
+                "wahlbezirksname": "Vereinsheim SV Hölter",
+                "kreistagswahl2014": {},
+                "kreistagswahl2020": {
+                    "bezirke": ["11"],
+                    "waehler/-innen": 406,
+                    "wahlberechtigte": 563,
+                    "gueltige_zweitstimmen": 401,
+                    "zweitstimme": [{
+                        "stimmen": 147,
+                        "partei": "CDU",
+                        "name": "Raffel"
+                    }, {
+                        "stimmen": 98,
+                        "partei": "SPD",
+                        "name": "Strzezebroda"
+                    },{
+                        "stimmen": 90,
+                        "partei": "Grüne",
+                        "name": "Stubbe"
+                    },{
+                        "stimmen": 2,
+                        "partei": "Unabhängige Wählergemeinschaft",
+                        "name": "Niestegge"
+                    },{
+                        "stimmen": 41,
+                        "partei": "FDP",
+                        "name": "Riesenbeck"
+                    },{
+                        "stimmen": 6,
+                        "partei": "Die Linke",
+                        "name": "Schatz"
+                    },{
+                        "stimmen": 17,
+                        "partei": "AfD",
+                        "name": "Beckmann"
+                    }]
+                }
+            },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
@@ -4723,15 +4932,6 @@
                         [7.772274486460306, 52.129455739689156]
                     ]
                 ]
-            },
-            "properties": {
-                "OBJECTID": 281,
-                "Kommune": "Ladbergen",
-                "Wahlbezirk": "11",
-                "Einwohner": 0,
-                "Wahlberech": 0,
-                "SHAPE_STAr": 14167933.8745,
-                "SHAPE_STLe": 24675.1989215
             }
         }
     ]

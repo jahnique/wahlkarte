@@ -17,7 +17,7 @@ const SZENARIEN = [
     "id": "wechselwaehler",
     "titel": "Wechsel&shy;wähler*innen",
     "untertitel": "Welche Wahlbezirke haben die Farbe gewechselt?",
-    "beschreibung": "Die Wahlbezirke, in denen die meistgewählte Partei im Vergleich zur Bundestagswahl 2013 gewechselt ist, sind hier hervorgehoben.",
+    "beschreibung": "Die Wahlbezirke, in denen die meistgewählte Partei im Vergleich zur Kommunalwahl 2013 gewechselt ist, sind hier hervorgehoben.",
     "getAnalyse": getAnalyseForWechselwaehler,
   },
   {
@@ -31,14 +31,14 @@ const SZENARIEN = [
     "id": "gewinner",
     "titel": "Größter Gewinner",
     "untertitel": "Welche Partei hat am meisten zugelegt?",
-    "beschreibung": "Die Wahlbezirke sind in der Farbe der Partei eingefärbt, die im Vergleich zur letzten Bundestagswahl relativ betrachtet die meisten Zweitstimmen hinzugewonnen hat.",
+    "beschreibung": "Die Wahlbezirke sind in der Farbe der Partei eingefärbt, die im Vergleich zur letzten Kommunalwahl relativ betrachtet die meisten Zweitstimmen hinzugewonnen hat.",
     "getAnalyse": getAnalyseGroessterGewinner,
   },
   {
     "id": "verlierer",
     "titel": "Größter Verlierer",
     "untertitel": "Welche Partei hat am meisten verloren?",
-    "beschreibung": "Die Wahlbezirke sind in der Farbe der Partei eingefärbt, die im Vergleich zur letzten Bundestagswahl relativ betrachtet die meisten Zweitstimmen verloren hat.",
+    "beschreibung": "Die Wahlbezirke sind in der Farbe der Partei eingefärbt, die im Vergleich zur letzten Kommunalwahl relativ betrachtet die meisten Zweitstimmen verloren hat.",
     "getAnalyse": getAnalyseGroessterVerlierer,
   },
   {

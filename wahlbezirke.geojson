@@ -110,7 +110,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "001-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 585,
                 "erststimme": [{
                     "stimmen": 71,
@@ -373,7 +373,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "001-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 563,
                 "erststimme": [{
                     "stimmen": 63,
@@ -633,7 +633,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "001-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 587,
                 "erststimme": [{
                     "stimmen": 100,
@@ -951,7 +951,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "002-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 439,
                 "erststimme": [{
                     "stimmen": 70,
@@ -1213,7 +1213,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "002-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 526,
                 "erststimme": [{
                     "stimmen": 92,
@@ -1529,7 +1529,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "002-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 499,
                 "erststimme": [{
                     "stimmen": 94,
@@ -1784,7 +1784,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "002-04",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 718,
                 "erststimme": [{
                     "stimmen": 129,
@@ -2039,7 +2039,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "002-05",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 680,
                 "erststimme": [{
                     "stimmen": 117,
@@ -2296,7 +2296,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "003-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 547,
                 "erststimme": [{
                     "stimmen": 90,
@@ -2547,7 +2547,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "003-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 552,
                 "erststimme": [{
                     "stimmen": 99,
@@ -2797,7 +2797,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "003-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 620,
                 "erststimme": [{
                     "stimmen": 106,
@@ -3075,7 +3075,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "003-04",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 558,
                 "erststimme": [{
                     "stimmen": 87,
@@ -3339,7 +3339,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "003-05",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -3600,7 +3600,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "003-06",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 508,
                 "erststimme": [{
                     "stimmen": 69,
@@ -3858,7 +3858,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "003-07",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -4011,7 +4011,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "003-08",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 535,
                 "erststimme": [{
                     "stimmen": 76,
@@ -4268,7 +4268,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "003-09",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -4465,7 +4465,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "003-10",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -4659,7 +4659,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "004-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 579,
                 "erststimme": [{
                     "stimmen": 110,
@@ -4920,7 +4920,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "004-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -5080,7 +5080,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "004-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -5244,7 +5244,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "004-04",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 592,
                 "erststimme": [{
                     "stimmen": 143,
@@ -5540,7 +5540,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "004-05",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 471,
                 "erststimme": [{
                     "stimmen": 91,
@@ -5808,7 +5808,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "004-06",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 542,
                 "erststimme": [{
                     "stimmen": 135,
@@ -6067,7 +6067,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "004-07",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 567,
                 "erststimme": [{
                     "stimmen": 106,
@@ -6324,7 +6324,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "004-08",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 552,
                 "erststimme": [{
                     "stimmen": 103,
@@ -6590,7 +6590,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "004-09",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 636,
                 "erststimme": [{
                     "stimmen": 129,
@@ -6841,7 +6841,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "004-10",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 528,
                 "erststimme": [{
                     "stimmen": 98,
@@ -7091,7 +7091,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "004-11",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 512,
                 "erststimme": [{
                     "stimmen": 105,
@@ -7342,7 +7342,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "004-12",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 494,
                 "erststimme": [{
                     "stimmen": 105,
@@ -7647,7 +7647,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "004-13",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 657,
                 "erststimme": [{
                     "stimmen": 107,
@@ -7914,7 +7914,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "005-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 568,
                 "erststimme": [{
                     "stimmen": 109,
@@ -8190,7 +8190,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "005-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 529,
                 "erststimme": [{
                     "stimmen": 62,
@@ -8448,7 +8448,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "005-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 489,
                 "erststimme": [{
                     "stimmen": 81,
@@ -8702,7 +8702,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "005-04",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 601,
                 "erststimme": [{
                     "stimmen": 98,
@@ -8958,7 +8958,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "005-05",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 587,
                 "erststimme": [{
                     "stimmen": 129,
@@ -9215,7 +9215,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "005-06",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 599,
                 "erststimme": [{
                     "stimmen": 104,
@@ -9472,7 +9472,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "005-07",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 559,
                 "erststimme": [{
                     "stimmen": 112,
@@ -9736,7 +9736,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "005-08",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 578,
                 "erststimme": [{
                     "stimmen": 126,
@@ -9990,7 +9990,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "005-09",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 479,
                 "erststimme": [{
                     "stimmen": 87,
@@ -10258,7 +10258,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "005-10",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 668,
                 "erststimme": [{
                     "stimmen": 153,
@@ -10533,7 +10533,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "005-11",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 570,
                 "erststimme": [{
                     "stimmen": 114,
@@ -10801,7 +10801,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "005-12",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 617,
                 "erststimme": [{
                     "stimmen": 83,
@@ -11087,7 +11087,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "006-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -11260,7 +11260,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "006-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -11477,7 +11477,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "006-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -11695,7 +11695,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "006-04",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 604,
                 "erststimme": [{
                     "stimmen": 80,
@@ -11974,7 +11974,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "006-05",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 506,
                 "erststimme": [{
                     "stimmen": 54,
@@ -12265,7 +12265,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "006-06",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 515,
                 "erststimme": [{
                     "stimmen": 36,
@@ -12553,7 +12553,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "006-07",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 516,
                 "erststimme": [{
                     "stimmen": 57,
@@ -12833,7 +12833,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "007-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 515,
                 "erststimme": [{
                     "stimmen": 83,
@@ -13094,7 +13094,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "007-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 563,
                 "erststimme": [{
                     "stimmen": 98,
@@ -13358,7 +13358,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "007-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -13528,7 +13528,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "007-04",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 643,
                 "erststimme": [{
                     "stimmen": 92,
@@ -13856,7 +13856,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "007-05",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 653,
                 "erststimme": [{
                     "stimmen": 72,
@@ -14116,7 +14116,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "007-06",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -14262,7 +14262,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "007-07",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -14425,7 +14425,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "007-08",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 604,
                 "erststimme": [{
                     "stimmen": 86,
@@ -14699,7 +14699,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "007-09",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -14922,7 +14922,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "007-10",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 702,
                 "erststimme": [{
                     "stimmen": 78,
@@ -15199,7 +15199,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "008-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 713,
                 "erststimme": [{
                     "stimmen": 34,
@@ -15461,7 +15461,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "008-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -15646,7 +15646,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "008-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 546,
                 "erststimme": [{
                     "stimmen": 67,
@@ -16071,7 +16071,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "008-04",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 423,
                 "erststimme": [{
                     "stimmen": 31,
@@ -16326,7 +16326,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "008-05",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 535,
                 "erststimme": [{
                     "stimmen": 67,
@@ -16588,7 +16588,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "008-06",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -16758,7 +16758,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "008-07",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -16920,7 +16920,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "008-08",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -17110,7 +17110,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "008-09",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 508,
                 "erststimme": [{
                     "stimmen": 61,
@@ -17557,7 +17557,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "009-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -17756,7 +17756,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "009-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -18119,7 +18119,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "009-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -18317,7 +18317,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "009-04",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -18497,7 +18497,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "009-05",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -18663,7 +18663,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "009-06",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -18828,7 +18828,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "009-07",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 588,
                 "erststimme": [{
                     "stimmen": 37,
@@ -19123,7 +19123,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "009-08",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 544,
                 "erststimme": [{
                     "stimmen": 37,
@@ -19514,7 +19514,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "010-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 488,
                 "erststimme": [{
                     "stimmen": 31,
@@ -19794,7 +19794,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "010-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 591,
                 "erststimme": [{
                     "stimmen": 38,
@@ -20253,7 +20253,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "010-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 650,
                 "erststimme": [{
                     "stimmen": 62,
@@ -20621,7 +20621,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "010-04",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -20849,7 +20849,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "010-05",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -21017,7 +21017,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "010-06",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -21236,7 +21236,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "011-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 478,
                 "erststimme": [{
                     "stimmen": 60,
@@ -21543,7 +21543,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "011-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -21731,7 +21731,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "011-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 586,
                 "erststimme": [{
                     "stimmen": 50,
@@ -22024,7 +22024,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "011-04",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 510,
                 "erststimme": [{
                     "stimmen": 37,
@@ -22322,7 +22322,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "011-05",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 651,
                 "erststimme": [{
                     "stimmen": 59,
@@ -22659,7 +22659,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "011-06",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -22846,7 +22846,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "011-07",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 685,
                 "erststimme": [{
                     "stimmen": 85,
@@ -23148,7 +23148,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "012-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -23371,7 +23371,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "012-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -23551,7 +23551,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "012-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -23763,7 +23763,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "012-04",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -23953,7 +23953,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "012-05",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -24123,7 +24123,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "013-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 469,
                 "erststimme": [{
                     "stimmen": 70,
@@ -24403,7 +24403,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "013-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 569,
                 "erststimme": [{
                     "stimmen": 96,
@@ -24670,7 +24670,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "013-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 657,
                 "erststimme": [{
                     "stimmen": 107,
@@ -25060,7 +25060,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "013-04",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 566,
                 "erststimme": [{
                     "stimmen": 64,
@@ -25390,7 +25390,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "013-05",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 695,
                 "erststimme": [{
                     "stimmen": 97,
@@ -25723,7 +25723,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "014-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 583,
                 "erststimme": [{
                     "stimmen": 100,
@@ -26012,7 +26012,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "014-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 638,
                 "erststimme": [{
                     "stimmen": 82,
@@ -26303,7 +26303,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "014-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 568,
                 "erststimme": [{
                     "stimmen": 109,
@@ -26580,7 +26580,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "014-04",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 502,
                 "erststimme": [{
                     "stimmen": 81,
@@ -26895,7 +26895,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "014-05",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 531,
                 "erststimme": [{
                     "stimmen": 34,
@@ -27165,7 +27165,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "015-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -27381,7 +27381,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "015-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -27591,7 +27591,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "015-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -27777,7 +27777,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "015-04",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 685,
                 "erststimme": [{
                     "stimmen": 112,
@@ -28143,7 +28143,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "015-05",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 565,
                 "erststimme": [{
                     "stimmen": 53,
@@ -28450,7 +28450,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "015-06",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -28686,7 +28686,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "015-07",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -28921,7 +28921,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "015-08",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 690,
                 "erststimme": [{
                     "stimmen": 101,
@@ -29216,7 +29216,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "016-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 555,
                 "erststimme": [{
                     "stimmen": 77,
@@ -29491,7 +29491,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "016-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 592,
                 "erststimme": [{
                     "stimmen": 84,
@@ -29784,7 +29784,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "016-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -29955,7 +29955,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "016-04",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 760,
                 "erststimme": [{
                     "stimmen": 76,
@@ -30243,7 +30243,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "016-05",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 460,
                 "erststimme": [{
                     "stimmen": 50,
@@ -30542,7 +30542,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "016-06",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 507,
                 "erststimme": [{
                     "stimmen": 40,
@@ -30823,7 +30823,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "016-07",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 479,
                 "erststimme": [{
                     "stimmen": 45,
@@ -31222,7 +31222,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "016-08",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 630,
                 "erststimme": [{
                     "stimmen": 51,
@@ -31525,7 +31525,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "017-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -31719,7 +31719,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "017-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -31896,7 +31896,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "017-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -32086,7 +32086,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "018-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 565,
                 "erststimme": [{
                     "stimmen": 76,
@@ -32385,7 +32385,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "018-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 502,
                 "erststimme": [{
                     "stimmen": 50,
@@ -32859,7 +32859,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "018-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 604,
                 "erststimme": [{
                     "stimmen": 68,
@@ -33129,7 +33129,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "018-04",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 448,
                 "erststimme": [{
                     "stimmen": 42,
@@ -33406,7 +33406,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "018-05",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 713,
                 "erststimme": [{
                     "stimmen": 80,
@@ -33727,7 +33727,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "019-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 556,
                 "erststimme": [{
                     "stimmen": 49,
@@ -34036,7 +34036,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "019-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 696,
                 "erststimme": [{
                     "stimmen": 96,
@@ -34308,7 +34308,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "019-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 612,
                 "erststimme": [{
                     "stimmen": 51,
@@ -34642,7 +34642,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "019-04",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 631,
                 "erststimme": [{
                     "stimmen": 84,
@@ -34944,7 +34944,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "019-05",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 700,
                 "erststimme": [{
                     "stimmen": 100,
@@ -35296,7 +35296,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "019-06",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -35487,7 +35487,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "019-07",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 754,
                 "erststimme": [{
                     "stimmen": 116,
@@ -35792,7 +35792,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "019-08",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -36051,7 +36051,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "019-09",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 615,
                 "erststimme": [{
                     "stimmen": 113,
@@ -36558,7 +36558,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "019-10",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 626,
                 "erststimme": [{
                     "stimmen": 66,
@@ -37045,7 +37045,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "019-11",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 478,
                 "erststimme": [{
                     "stimmen": 37,
@@ -37321,7 +37321,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "019-13",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 582,
                 "erststimme": [{
                     "stimmen": 71,
@@ -37629,7 +37629,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "019-14",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 610,
                 "erststimme": [{
                     "stimmen": 85,
@@ -37918,7 +37918,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "019-15",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 535,
                 "erststimme": [{
                     "stimmen": 56,
@@ -38230,7 +38230,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "019-16",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 670,
                 "erststimme": [{
                     "stimmen": 77,
@@ -38521,7 +38521,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "019-17",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 545,
                 "erststimme": [{
                     "stimmen": 39,
@@ -38820,7 +38820,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "019-18",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 507,
                 "erststimme": [{
                     "stimmen": 44,
@@ -39257,7 +39257,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "019-19",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 173,
                 "erststimme": [{
                     "stimmen": 19,
@@ -39600,7 +39600,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "019-20",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 543,
                 "erststimme": [{
                     "stimmen": 42,
@@ -40065,7 +40065,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "020-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 542,
                 "erststimme": [{
                     "stimmen": 50,
@@ -40412,7 +40412,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "020-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 596,
                 "erststimme": [{
                     "stimmen": 72,
@@ -40762,7 +40762,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "020-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 530,
                 "erststimme": [{
                     "stimmen": 42,
@@ -41115,7 +41115,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "020-04",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 623,
                 "erststimme": [{
                     "stimmen": 64,
@@ -41507,7 +41507,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "020-05",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 620,
                 "erststimme": [{
                     "stimmen": 63,
@@ -41906,7 +41906,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "020-06",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 595,
                 "erststimme": [{
                     "stimmen": 60,
@@ -42201,7 +42201,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "020-07",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -42532,7 +42532,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "021-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 367,
                 "erststimme": [{
                     "stimmen": 30,
@@ -42862,7 +42862,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "021-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 452,
                 "erststimme": [{
                     "stimmen": 41,
@@ -43241,7 +43241,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "021-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 359,
                 "erststimme": [{
                     "stimmen": 29,
@@ -43625,7 +43625,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "022-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 580,
                 "erststimme": [{
                     "stimmen": 60,
@@ -44106,7 +44106,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "022-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 761,
                 "erststimme": [{
                     "stimmen": 108,
@@ -44442,7 +44442,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "023-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 487,
                 "erststimme": [{
                     "stimmen": 35,
@@ -44731,7 +44731,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "023-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 434,
                 "erststimme": [{
                     "stimmen": 45,
@@ -45055,7 +45055,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "023-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 542,
                 "erststimme": [{
                     "stimmen": 69,
@@ -45448,7 +45448,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "024-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 532,
                 "erststimme": [{
                     "stimmen": 41,
@@ -45848,7 +45848,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "024-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 482,
                 "erststimme": [{
                     "stimmen": 48,
@@ -46172,7 +46172,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "024-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 447,
                 "erststimme": [{
                     "stimmen": 38,
@@ -46542,7 +46542,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "024-04",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 479,
                 "erststimme": [{
                     "stimmen": 36,
@@ -46888,7 +46888,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "025-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 414,
                 "erststimme": [{
                     "stimmen": 42,
@@ -47182,7 +47182,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "025-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 419,
                 "erststimme": [{
                     "stimmen": 32,
@@ -47495,7 +47495,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "026-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 564,
                 "erststimme": [{
                     "stimmen": 52,
@@ -47795,7 +47795,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "026-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 550,
                 "erststimme": [{
                     "stimmen": 55,
@@ -48076,7 +48076,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "026-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 518,
                 "erststimme": [{
                     "stimmen": 29,
@@ -48464,7 +48464,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "026-04",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 588,
                 "erststimme": [{
                     "stimmen": 45,
@@ -48755,7 +48755,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "026-05",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 541,
                 "erststimme": [{
                     "stimmen": 36,
@@ -49030,7 +49030,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "026-06",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 545,
                 "erststimme": [{
                     "stimmen": 46,
@@ -49420,7 +49420,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "026-07",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 648,
                 "erststimme": [{
                     "stimmen": 64,
@@ -49711,7 +49711,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "026-08",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 771,
                 "erststimme": [{
                     "stimmen": 50,
@@ -49984,7 +49984,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "026-09",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 624,
                 "erststimme": [{
                     "stimmen": 52,
@@ -50391,7 +50391,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "026-10",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 639,
                 "erststimme": [{
                     "stimmen": 70,
@@ -50694,7 +50694,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "026-11",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 511,
                 "erststimme": [{
                     "stimmen": 48,
@@ -50982,7 +50982,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "026-12",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 641,
                 "erststimme": [{
                     "stimmen": 72,
@@ -51282,7 +51282,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "026-13",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 560,
                 "erststimme": [{
                     "stimmen": 73,
@@ -51547,7 +51547,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "027-01",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 660,
                 "erststimme": [{
                     "stimmen": 98,
@@ -51837,7 +51837,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "027-02",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -52039,7 +52039,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "027-03",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 729,
                 "erststimme": [{
                     "stimmen": 102,
@@ -52332,7 +52332,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "027-04",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -52567,7 +52567,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "027-05",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "bezirke": null
             },
             "kreistagswahl2020": {
@@ -52886,7 +52886,7 @@
         },
         "properties": {
             "wahlbezirksnummer": "019-12",
-            "kreistagswahl2013": {
+            "kreistagswahl2014": {
                 "waehler/-innen": 481,
                 "erststimme": [{
                     "stimmen": 51,
