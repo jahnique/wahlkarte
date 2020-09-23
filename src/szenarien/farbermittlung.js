@@ -17,7 +17,8 @@ function getColorForParty(partyName) {
  * @param {Object} properties
  */
 function getAnalyseForWahlergebnisse(properties) {
-  var zweitstimmen = properties.btw2017.zweitstimme;
+  console.log(properties);
+  var zweitstimmen = properties.kreistagswahl2020.zweitstimme;
   var max = 0;
   var partyName = null;
   zweitstimmen.forEach(function(party) {
@@ -37,7 +38,7 @@ function getAnalyseForWahlergebnisse(properties) {
 }
 
 function getAnalyseForKleinparteien(properties) {
-  var zweitstimmen = properties.btw2017.zweitstimme;
+  var zweitstimmen = properties.kreistagswahl2020.zweitstimme;
   var zweitstimmenOhneCDUSPD = zweitstimmen.filter(parteiergebnis => parteiergebnis.partei.toLowerCase() != "cdu" && parteiergebnis.partei.toLowerCase() != "spd");
   var max = 0;
   var partyName = null;
@@ -62,7 +63,7 @@ function getAnalyseForKleinparteien(properties) {
  * @param {Object} properties
  */
 function getAnalyseForErststimmen(properties) {
-  var erststimmen = properties.btw2017.erststimme;
+  var erststimmen = properties.kreistagswahl2020.erststimme;
   var max = 0;
   var sieger = null;
   erststimmen.forEach(function(kandidat) {
@@ -86,7 +87,7 @@ function getAnalyseForErststimmen(properties) {
  * @param {Object} properties
  */
 function getAnalyseForErstVsZweit(properties) {
-  var erststimmen = properties.btw2017.erststimme;
+  var erststimmen = properties.kreistagswahl2020.erststimme;
   var erststimme_max = 0;
   var erststimme_partyName = null;
   erststimmen.forEach(function(kandidat) {
@@ -96,7 +97,7 @@ function getAnalyseForErstVsZweit(properties) {
     }
   });
 
-  var zweitstimmen = properties.btw2017.zweitstimme;
+  var zweitstimmen = properties.kreistagswahl2020.zweitstimme;
   var zweitstimme_max = 0;
   var zweitstimme_partyName = null;
   zweitstimmen.forEach(function(kandidat) {
@@ -124,18 +125,18 @@ function getAnalyseForErstVsZweit(properties) {
 
 
 function getAnalyseGroessterGewinner(properties) {
-  if (properties.btw2013.zweitstimme) {
-    var btw2013_zweitstimmen = properties.btw2013.zweitstimme;
-    var btw2013_zweitstimmen_summe = getGueltigeStimmen2013(btw2013_zweitstimmen);
-    var btw2017_zweitstimmen = properties.btw2017.zweitstimme;
-    var btw2017_zweitstimmen_summe = properties.btw2017.gueltige_zweitstimmen;
+  if (properties.kreistagswahl2013.zweitstimme) {
+    var kreistagswahl2013_zweitstimmen = properties.kreistagswahl2013.zweitstimme;
+    var kreistagswahl2013_zweitstimmen_summe = getGueltigeStimmen2013(kreistagswahl2013_zweitstimmen);
+    var kreistagswahl2020_zweitstimmen = properties.kreistagswahl2020.zweitstimme;
+    var kreistagswahl2020_zweitstimmen_summe = properties.kreistagswahl2020.gueltige_zweitstimmen;
     var winner_loser = {};
-    btw2017_zweitstimmen.forEach(function(partei) {
-      winner_loser[partei.partei] = partei.stimmen / btw2017_zweitstimmen_summe;
+    kreistagswahl2020_zweitstimmen.forEach(function(partei) {
+      winner_loser[partei.partei] = partei.stimmen / kreistagswahl2020_zweitstimmen_summe;
     });
-    btw2013_zweitstimmen.forEach(function(partei) {
+    kreistagswahl2013_zweitstimmen.forEach(function(partei) {
       if (winner_loser[partei.partei]) {
-        winner_loser[partei.partei] = winner_loser[partei.partei] - partei.stimmen / btw2013_zweitstimmen_summe;
+        winner_loser[partei.partei] = winner_loser[partei.partei] - partei.stimmen / kreistagswahl2013_zweitstimmen_summe;
       }
     });
     var max = 0, parteiname_winner = '';
@@ -159,18 +160,18 @@ function getAnalyseGroessterGewinner(properties) {
 }
 
 function getAnalyseGroessterVerlierer(properties) {
-  if (properties.btw2013.zweitstimme) {
-    var btw2013_zweitstimmen = properties.btw2013.zweitstimme;
-    var btw2013_zweitstimmen_summe = getGueltigeStimmen2013(btw2013_zweitstimmen);
-    var btw2017_zweitstimmen = properties.btw2017.zweitstimme;
-    var btw2017_zweitstimmen_summe = properties.btw2017.gueltige_zweitstimmen;
+  if (properties.kreistagswahl2013.zweitstimme) {
+    var kreistagswahl2013_zweitstimmen = properties.kreistagswahl2013.zweitstimme;
+    var kreistagswahl2013_zweitstimmen_summe = getGueltigeStimmen2013(kreistagswahl2013_zweitstimmen);
+    var kreistagswahl2020_zweitstimmen = properties.kreistagswahl2020.zweitstimme;
+    var kreistagswahl2020_zweitstimmen_summe = properties.kreistagswahl2020.gueltige_zweitstimmen;
     var winner_loser = {};
-    btw2013_zweitstimmen.forEach(function(partei) {
-      winner_loser[partei.partei] = partei.stimmen / btw2013_zweitstimmen_summe;
+    kreistagswahl2013_zweitstimmen.forEach(function(partei) {
+      winner_loser[partei.partei] = partei.stimmen / kreistagswahl2013_zweitstimmen_summe;
     });
-    btw2017_zweitstimmen.forEach(function(partei) {
+    kreistagswahl2020_zweitstimmen.forEach(function(partei) {
       if (winner_loser[partei.partei]) {
-        winner_loser[partei.partei] = winner_loser[partei.partei] - partei.stimmen / btw2017_zweitstimmen_summe;
+        winner_loser[partei.partei] = winner_loser[partei.partei] - partei.stimmen / kreistagswahl2020_zweitstimmen_summe;
       }
     });
     var max = 0, parteiname_winner = '';
@@ -193,12 +194,12 @@ function getAnalyseGroessterVerlierer(properties) {
   }
 }
 
-function getGueltigeStimmen2013(btw2013_stimmen) {
-  var btw2013_stimmen_summe = 0;
-  for(var index in btw2013_stimmen){
-      btw2013_stimmen_summe += btw2013_stimmen[index].stimmen;
+function getGueltigeStimmen2013(kreistagswahl2013_stimmen) {
+  var kreistagswahl2013_stimmen_summe = 0;
+  for(var index in kreistagswahl2013_stimmen){
+      kreistagswahl2013_stimmen_summe += kreistagswahl2013_stimmen[index].stimmen;
   }
-  return btw2013_stimmen_summe;
+  return kreistagswahl2013_stimmen_summe;
 }
 
 /**
@@ -206,9 +207,9 @@ function getGueltigeStimmen2013(btw2013_stimmen) {
  * @param {Object} properties
  */
 function getAnalyseForWechselwaehler(properties) {
-  if (properties.btw2013.zweitstimme) {
-    var zweitstimmen2013 = properties.btw2013.zweitstimme;
-    var zweitstimmen2017 = properties.btw2017.zweitstimme;
+  if (properties.kreistagswahl2013.zweitstimme) {
+    var zweitstimmen2013 = properties.kreistagswahl2013.zweitstimme;
+    var zweitstimmen2017 = properties.kreistagswahl2020.zweitstimme;
     var sieger2013 = getParteiMitMeistenStimmen(zweitstimmen2013);
     var sieger2017 = getParteiMitMeistenStimmen(zweitstimmen2017);
 
@@ -250,9 +251,9 @@ function getParteiMitMeistenStimmen(zweitstimmen) {
  * @param {Object} properties
  */
 function getAnalyseForUngueltigeStimmen(properties) {
-  var btw2017 = properties.btw2017;
-  var gesamtStimmen = 2 * btw2017["waehler/-innen"];
-  var gueltigeStimmen = btw2017.gueltige_erststimmen + btw2017.gueltige_zweitstimmen;
+  var kreistagswahl2020 = properties.kreistagswahl2020;
+  var gesamtStimmen = 2 * kreistagswahl2020["waehler/-innen"];
+  var gueltigeStimmen = kreistagswahl2020.gueltige_erststimmen + kreistagswahl2020.gueltige_zweitstimmen;
   var ungueltigeStimmen = gesamtStimmen - gueltigeStimmen;
 
   var prozentualUngueltigeStimmen = ungueltigeStimmen / gesamtStimmen;
@@ -269,8 +270,8 @@ function getAnalyseForUngueltigeStimmen(properties) {
  * @param {Object} properties
  */
 function getAnalyseForKleinsterAbstand(properties) {
-  var zweitstimmen = properties.btw2017.zweitstimme;
-  var gesamtstimmen = properties.btw2017["waehler/-innen"];
+  var zweitstimmen = properties.kreistagswahl2020.zweitstimme;
+  var gesamtstimmen = properties.kreistagswahl2020["waehler/-innen"];
   var erster = getParteiMitMeistenStimmen(zweitstimmen);
   var zweitstimmenOhneErsten = zweitstimmen.filter(parteiergebnis => parteiergebnis.partei.toLowerCase() !== erster.party.name.toLowerCase());
   var zweiter = getParteiMitMeistenStimmen(zweitstimmenOhneErsten);

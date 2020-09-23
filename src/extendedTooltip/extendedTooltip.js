@@ -101,11 +101,11 @@ function closeInfoPanel() {
  */
 function addDetailDistrictInfo(districtInfo) {
 
-    var data2017 = districtInfo.properties.btw2017,
+    var data2017 = districtInfo.properties.kreistagswahl2020,
         sumDistrict = districtInfo.sumDistrict,
         template = '';
 
-    sumDistrict = districtInfo.properties.btw2017.gueltige_zweitstimmen;
+    sumDistrict = districtInfo.properties.kreistagswahl2020.gueltige_zweitstimmen;
 
     // Array Sortieren
     data2017.zweitstimme = data2017.zweitstimme.sort(function (a, b) {

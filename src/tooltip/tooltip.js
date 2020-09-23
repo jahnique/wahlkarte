@@ -18,16 +18,16 @@ function onMouseOverWahlbezirk(data){
         currentConstituencyNumber = data.properties.wahlbezirksnummer;
 
         var template = '<span id="tool-tip-district-name">' + data.properties.wahlbezirksname + "</span>";
-        var summe = data.properties.btw2017.gueltige_zweitstimmen;
+        var summe = data.properties.kreistagswahl2020.gueltige_zweitstimmen;
 
         // Array Sortieren
-        data.properties.btw2017.zweitstimme = data.properties.btw2017.zweitstimme.sort(function (a, b) {
+        data.properties.kreistagswahl2020.zweitstimme = data.properties.kreistagswahl2020.zweitstimme.sort(function (a, b) {
             return b.stimmen - a.stimmen;
         });
 
-        template += buildBar(data.properties.btw2017.zweitstimme, summe);
+        template += buildBar(data.properties.kreistagswahl2020.zweitstimme, summe);
         // ersten 3 Parteien im Tooltip anzeigen
-        data.properties.btw2017.zweitstimme.slice(0,3).forEach(function(element) {
+        data.properties.kreistagswahl2020.zweitstimme.slice(0,3).forEach(function(element) {
             var party = findParty(element.partei);
             template += party.name;
             template += " mit " + element.stimmen + " Stimmen";
