@@ -1,5 +1,5 @@
-var KA_LAT  = 49.00921;
-var KA_LNG  = 8.45003951;
+var KA_LAT  = 52.1363188;
+var KA_LNG  = 7.7404166;
 var elemSvg = null;
 
 var GEOJSON = null;
@@ -156,17 +156,17 @@ $(function() {
     wahlbezirke = g.append('g')
         .classed('wahlbezirke', true);
 
-    var stadtteilePromise = pathsFromGeoJSON("ka_stadtteile.geojson", stadtteile, false)
-        .then(function (paths) {
-            paths
-                .attr("id", function (d) { return d.properties.Stadtteilnummer })
-                .attr('class', 'district')
-                .style('fill', 'rgba(255, 255, 255, 0.7)')
-                .style('stroke', '#000')
-                .style('stroke-width', 2);
-        });
+    // var stadtteilePromise = pathsFromGeoJSON("ka_stadtteile.geojson", stadtteile, false)
+    //     .then(function (paths) {
+    //         paths
+    //             .attr("id", function (d) { return d.properties.Stadtteilnummer })
+    //             .attr('class', 'district')
+    //             .style('fill', 'rgba(255, 255, 255, 0.7)')
+    //             .style('stroke', '#000')
+    //             .style('stroke-width', 2);
+    //     });
 
-    var wahlbezirkePromise = pathsFromGeoJSON("wahlbezirke.geojson", wahlbezirke, true)
+    var wahlbezirkePromise = pathsFromGeoJSON("wahlbezirke_ladbergen.geojson", wahlbezirke, true)
         .then(function (paths) {
             paths
                 .attr("id", function (d) { return d.properties.wahlbezirksnummer })
@@ -220,7 +220,8 @@ $(function() {
     extendedTooltipDetailDistrictInfoErststimme = document.getElementById('pills-erststimme');
     extendedTooltipDetailDistrictInfoZweitstimme = document.getElementById('pills-zweitstimme');
 
-    Promise.all([stadtteilePromise, wahlbezirkePromise])
+    // Promise.all([stadtteilePromise, wahlbezirkePromise])
+    Promise.all([wahlbezirkePromise])
         .then(function() {
             function onHashChange(e) {
                 setScenario(getScenarioIdFromUrl());

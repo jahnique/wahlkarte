@@ -27,6 +27,10 @@ const PARTY = {
         "color": "#8b1b62"
 
     },
+    UWG:{
+        "name": "Unabhängige Wählergemeinschaft",
+        "color": "#FFC100"
+    },
     PIRATEN:{
         "name": "Piraten",
         "color": "#ff8800"
